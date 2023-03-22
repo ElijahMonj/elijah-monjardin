@@ -10,8 +10,11 @@ import About from './components/About'
 import Resume from './components/Resume'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
+ 
+  
   return (
     <BrowserRouter>
       <div className="App">
@@ -23,6 +26,7 @@ function App() {
           <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/resume' element={<Resume/>}/>
         </Routes>
+        <Footer/>
       </div>
       
       </BrowserRouter>

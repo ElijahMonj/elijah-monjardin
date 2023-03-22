@@ -10,38 +10,33 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import {Link, NavLink} from 'react-router-dom'
 
 function NavigationBar() {
-
+  
     return(
-        <>
-      {['sm'].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3">
-          <Container fluid>
-            <Navbar.Brand as={Link} to={"/"}>Elijah Monjardin</Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand-${expand}`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-              placement="end"
-            >
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                Elijah Monjardin
-                </Offcanvas.Title>
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                    <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
-                    <Nav.Link as={Link}to={"/portfolio"}>Portfolio</Nav.Link>
-                    <Nav.Link as={Link} to={"/resume"}>Resume</Nav.Link>
-                    <Nav.Link as={Link} to={"/contact"}>Contact</Nav.Link>
-                </Nav>
-                
-              </Offcanvas.Body>
-            </Navbar.Offcanvas>
-          </Container>
-        </Navbar>
-      ))}
-    </>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <div className="container ">
+    <Link className="navbar-brand" to="/">Elijah Monjardin</Link>
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i className="fas fa-bars"></i>
+    </button>
+    <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div className="navbar-nav">
+        <Link to={'/about'} className="nav-link">About me</Link>
+        <Link to={'/portfolio'} className="nav-link">Portfolio</Link>
+        <Link to={'/resume'} className="nav-link">Resume</Link>
+        <Link to={'/contact'} className="nav-link">Contact</Link>
+        
+      </div>
+    </div>
+  </div>
+</nav>
     )
 
 }
