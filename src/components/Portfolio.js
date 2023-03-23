@@ -6,9 +6,14 @@ import memoryCard from './images/memory-card.png';
 import shoppingCart from './images/shopping-cart.png';
 import tictac from './images/tictac.png';
 import weather from './images/weather.png';
+import ThinkAndShare from './images/thinkandshare.png'
+import Etch from './images/etch.png'
+import Todo from './images/todo.png'
 
-import htmlIcon from './icons/html.png';
-
+import mongoLogo from './icons/1.svg';
+import nodeLogo from './icons/2.svg';
+import reactLogo from './icons/3.svg';
+import expressLogo from './icons/4.svg';
 const Portfolio = () => {
     function AutoShow(){
         setTimeout(function() {
@@ -26,19 +31,49 @@ const Portfolio = () => {
           }, 50); 
            
     }
+    function showProjects(){
+        setTimeout(function() {
+            const H = document.querySelectorAll('.auto-reveal');
+            H.forEach(h => {
+              h.classList.add("active");         
+            })
+          }, 1500);
+    }
+    function showTitleMongo(e){
+        document.getElementById('responsiveLogoTitle').innerHTML="MongoDB"
+        document.getElementById('responsiveLogoTitle').style.color="#00684A"
+    }
+    function showTitleExpress(e){
+        document.getElementById('responsiveLogoTitle').innerHTML="ExpressJS"
+        document.getElementById('responsiveLogoTitle').style.color="black"
+    }
+    function showTitleReact(e){
+        document.getElementById('responsiveLogoTitle').innerHTML="React"
+        document.getElementById('responsiveLogoTitle').style.color="#61DBFB"
+    }
+    function showTitleNode(e){
+        document.getElementById('responsiveLogoTitle').innerHTML="NodeJS"
+        document.getElementById('responsiveLogoTitle').style.color="#66cc33"
+    }
+    function showTitleRemove(e){
+        document.getElementById('responsiveLogoTitle').innerHTML=""
+    }
     
     return(
         <div className="container">
             <section>
             {AutoShow()}
+            {showProjects()}
             <section className="container-fluid bg-light row justify-content-center py-5 mx-0 my-5 ">
             <div className="col-md-6 auto-hidden-left py-5">
+                <h5 className="display-6">Hi, I'm</h5>
                 <h1 className="display-1">
-                    Hi, I'm Elijah Monjardin.
+                    <strong>Elijah Monjardin</strong>
                 </h1>
-                <h4 className="display-4">
-                    I create modern responsive websites.
+                <h4 className="display-5">
+                    I'm a web developer.
                 </h4>
+                <p>Lorem ipsum longer</p>
             </div>
             <div className="col-md-6 d-flex justify-content-center auto-hidden-right py-5">
                
@@ -46,18 +81,39 @@ const Portfolio = () => {
                 style={{height:"auto",width:"20em"}} alt="me"/>
 
             </div>
+            
+            </section>
+            <section className="row auto-reveal">
             <div className="col-md-12">
-            <div class="row justify-content-center">
-                    <div class="col-md-1">
-                        <img src={htmlIcon} alt="html" className="img-fluid"></img>
+                <h5>magaling ako sa mern haha</h5>
+                
+                <div class="d-flex justify-content-center gap-3">
+                    <div class="col-1 showLogoTitle" >
+                        <img src={mongoLogo} alt="html" onMouseEnter={showTitleMongo} 
+                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img>
+                    </div>
+                    <div class="col-1 showLogoTitle">
+                        <img src={expressLogo} alt="html" onMouseEnter={showTitleExpress} 
+                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img>
+                        
+                    </div>
+                    <div class="col-1 showLogoTitle">
+                        <img src={reactLogo} alt="html" onMouseEnter={showTitleReact} 
+                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img>
+                         
+                    </div>
+                    <div class="col-1 showLogoTitle">
+                        <img src={nodeLogo} alt="html" onMouseEnter={showTitleNode} 
+                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img>
                         
                     </div>
                     
                 </div>
+                <h5 id="responsiveLogoTitle" style={{minHeight:24}}></h5>
             </div>
             </section>
             </section>
-            <section className="">
+            <section className="reveal">
             <div>
                 <h6 className="display-6 my-5">Featured Projects</h6>
             </div>
@@ -74,7 +130,7 @@ const Portfolio = () => {
                 <div className="carousel-inner rounded-5 shadow-4-strong">
                    
                     <div className="carousel-item active">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" className="d-block w-100"
+                    <img src={ThinkAndShare} className="d-block w-100"
                         alt="Sunset Over the City" />
                     <div className="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
@@ -84,7 +140,7 @@ const Portfolio = () => {
 
                     
                     <div className="carousel-item">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100"
+                    <img src={blogSite} className="d-block w-100"
                         alt="Canyon at Nigh" />
                     <div className="carousel-caption d-none d-md-block">
                         <h5>Second slide label</h5>
@@ -94,7 +150,7 @@ const Portfolio = () => {
 
                    
                     <div className="carousel-item">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" className="d-block w-100"
+                    <img src={tictac} className="d-block w-100"
                         alt="Cliff Above a Stormy Sea" />
                     <div className="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
@@ -113,8 +169,8 @@ const Portfolio = () => {
                 </button>
                 </div>
             </section>
-            <section>
-                <div>
+            <section className="">
+                <div className="reveal">
                     <h6 className="display-6 mt-5">All Projects</h6>
                 </div>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -123,7 +179,7 @@ const Portfolio = () => {
                             <div class="card-header">
                             <h5 class="m-0">Featured</h5>
                             </div>
-                        <img src={blogSite} class="card-img-top"
+                        <img src={ThinkAndShare} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -175,7 +231,7 @@ const Portfolio = () => {
                             <div class="card-header">
                             <h5 class="m-0">Featured</h5>
                             </div>
-                        <img src={blogSite} class="card-img-top"
+                        <img src={tictac} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -200,7 +256,7 @@ const Portfolio = () => {
                     <div class="col pt-5 reveal">
                         <div class="card h-100">
                             
-                        <img src={blogSite} class="card-img-top"
+                        <img src={weather} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -224,7 +280,7 @@ const Portfolio = () => {
                     <div class="col pt-5 reveal">
                         <div class="card h-100">
                             
-                        <img src={blogSite} class="card-img-top"
+                        <img src={library} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -248,7 +304,7 @@ const Portfolio = () => {
                     <div class="col pt-5 reveal">
                         <div class="card h-100">
                             
-                        <img src={blogSite} class="card-img-top"
+                        <img src={memoryCard} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -273,7 +329,7 @@ const Portfolio = () => {
                     <div class="col pt-5 reveal">
                         <div class="card h-100">
                             
-                        <img src={blogSite} class="card-img-top"
+                        <img src={Etch} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -297,7 +353,7 @@ const Portfolio = () => {
                     <div class="col pt-5 reveal">
                         <div class="card h-100">
                             
-                        <img src={blogSite} class="card-img-top"
+                        <img src={Todo} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -321,7 +377,7 @@ const Portfolio = () => {
                     <div class="col pt-5 reveal">
                         <div class="card h-100">
                             
-                        <img src={blogSite} class="card-img-top"
+                        <img src={shoppingCart} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>

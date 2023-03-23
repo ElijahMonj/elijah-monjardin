@@ -70,3 +70,15 @@
   border-radius: 69% 30% 39% 55% / 52% 35% 27% 43% ;
   
 }
+
+.logoTitle{
+  font-size: 1.5em;
+}
+
+.showLogoTitle{
+  transition: 0.2s;
+}
+.showLogoTitle:hover{
+ cursor: pointer;
+ transform: scale(1.2);
+}
