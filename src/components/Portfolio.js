@@ -85,7 +85,7 @@ const Portfolio = () => {
             </section>
             <section className="row auto-reveal">
             <div className="col-md-12">
-                <h5>magaling ako sa mern haha</h5>
+                <h5>A MERN stack developer.</h5>
                 
                 <div class="d-flex justify-content-center gap-3">
                     <div class="col-1 showLogoTitle" >
