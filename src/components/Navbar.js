@@ -9,10 +9,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import {Link, NavLink} from 'react-router-dom'
 
+
 function NavigationBar() {
   
     return(
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container ">
     <Link className="navbar-brand" to="/">Elijah Monjardin</Link>
     <button

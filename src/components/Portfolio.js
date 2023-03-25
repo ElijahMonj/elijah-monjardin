@@ -64,7 +64,7 @@ const Portfolio = () => {
             <section>
             {AutoShow()}
             {showProjects()}
-            <section className="container-fluid bg-light row justify-content-center py-5 mx-0 my-5 ">
+            <section className="container-fluid row justify-content-center py-5 mx-0 my-5 ">
             <div className="col-md-6 auto-hidden-left py-5">
                 <h5 className="display-6">Hi, I'm</h5>
                 <h1 className="display-1">
@@ -117,9 +117,9 @@ const Portfolio = () => {
             <div>
                 <h6 className="display-6 my-5">Featured Projects</h6>
             </div>
-            <div id="carouselMaterialStyle" className="carousel slide carousel-fade" data-mdb-ride="carousel">
+            <div id="carouselMaterialStyle" className="carousel carousel-fade " data-mdb-ride="carousel">
                 
-                <div className="carousel-indicators">
+                <div className="carousel-indicators " >
                     <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="0" className="active" aria-current="true"
                     aria-label="Slide 1"></button>
                     <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="1" aria-label="Slide 2"></button>
@@ -129,31 +129,31 @@ const Portfolio = () => {
                
                 <div className="carousel-inner rounded-5 shadow-4-strong">
                    
-                    <div className="carousel-item active">
-                    <img src={ThinkAndShare} className="d-block w-100"
-                        alt="Sunset Over the City" />
+                    <div className="carousel-item active" data-mdb-interval="10000">
+                    <img src={ThinkAndShare} className="d-block w-100"  style={{filter:"brightness(70%)"}}
+                        alt="Think & Share" />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
+                        <h5>Think & Share</h5>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </div>
                     </div>
 
                     
-                    <div className="carousel-item">
-                    <img src={blogSite} className="d-block w-100"
+                    <div className="carousel-item" data-mdb-interval="10000">
+                    <img src={blogSite} className="d-block w-100" style={{filter:"brightness(70%)"}}
                         alt="Canyon at Nigh" />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
+                        <h5>GizmoThoughts</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     </div>
 
                    
-                    <div className="carousel-item">
-                    <img src={tictac} className="d-block w-100"
+                    <div className="carousel-item" data-mdb-interval="10000">
+                    <img src={tictac} className="d-block w-100" style={{filter:"brightness(70%)"}}
                         alt="Cliff Above a Stormy Sea" />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
+                        <h5>Love is...Tic-Tac-Toe!?</h5>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </div>
                     </div>
@@ -234,7 +234,7 @@ const Portfolio = () => {
                         <img src={tictac} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
-                            <h5 class="card-title">Love is... Tic-Tac-Toe!?</h5>
+                            <h5 class="card-title">Love is...Tic-Tac-Toe!?</h5>
                             <p class="card-text">
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.

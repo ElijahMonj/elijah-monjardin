@@ -86,3 +86,12 @@
 textarea {
   resize: none;
 }
+
+.socBtn{
+  cursor: pointer;
+}
+.socBtnBg:hover{
+  background-color: #3b3c36;
+}
+
+
