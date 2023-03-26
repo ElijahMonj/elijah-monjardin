@@ -15,7 +15,7 @@ function NavigationBar() {
     return(
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container ">
-    <Link className="navbar-brand" to="/">Elijah Monjardin</Link>
+    <Link className="navbar-brand lead" to="/"><strong>ELIJAH MONJARDIN</strong></Link>
     <button
       className="navbar-toggler"
       type="button"
