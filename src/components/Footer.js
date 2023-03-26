@@ -6,43 +6,68 @@ const Footer = () => {
     
 
     return(
-        <footer className="bg-dark text-center text-white">
-            {/* Grid container */}
-            <div className="container p-4 pb-0">
-                {/* Section: Social media */}
-                <section className="mb-4">
-               
-        
+        <footer class="bg-light text-center text-white">
+ 
+            <div class="container p-4 pb-0">
+                <p className='text-dark'>Connect with me</p>
+                <section class="mb-4">
+                
+                <a
+                    class="btn text-white btn-floating m-1"
+                    style={{backgroundColor: "#3b5998"}}
+                    href="#!"
+                    role="button"
+                    ><i class="fab fa-facebook-f fa-lg"></i></a>
 
-                {/* Twitter */}
-                <a className="btn btn-outline-light btn-floating m-1 socBtnBg" href="https://twitter.com/ElijahMonj" role="button"
-                    ><i className="fab fa-twitter fa-lg fa-fw"></i></a>
+                
+                <a
+                    class="btn text-white btn-floating m-1"
+                    style={{backgroundColor: "#55acee"}}
+                    href="#!"
+                    role="button"
+                    ><i class="fab fa-twitter fa-lg"></i></a>
 
-                {/* Google */}
-                <a className="btn btn-outline-light btn-floating m-1 socBtnBg" href="#!" role="button"
-                    ><i className="fab fa-google fa-lg fa-fw "></i></a>
+                
+                <a
+                    class="btn text-white btn-floating m-1"
+                    style={{backgroundColor: "#dd4b39"}}
+                    href="#!"
+                    role="button"
+                    ><i class="fab fa-google fa-lg"></i></a>
 
-                {/* Linkedin */}
-                <a className="btn btn-outline-light btn-floating m-1 socBtnBg" href="#!" role="button"
-                    ><i className="fab fa-linkedin-in fa-lg fa-fw "></i></a>
+                
+                <a
+                    class="btn text-white btn-floating m-1"
+                    style={{backgroundColor: "#ac2bac"}}
+                    href="#!"
+                    role="button"
+                    ><i class="fab fa-instagram fa-lg"></i></a>
 
-                {/* Github */}
-                <a className="btn btn-outline-light btn-floating m-1 socBtnBg" href="https://github.com/ElijahMonj" role="button"
-                    ><i className="fab fa-github fa-lg fa-fw "></i></a>
-                    
+                
+                <a
+                    class="btn text-white btn-floating m-1"
+                    style={{backgroundColor: "#0082ca"}}
+                    href="#!"
+                    role="button"
+                    ><i class="fab fa-linkedin-in fa-lg"></i></a>
+                
+                <a
+                    class="btn text-white btn-floating m-1"
+                    style={{backgroundColor:"#333333"}}
+                    href="#!"
+                    role="button"
+                    ><i class="fab fa-github fa-lg"></i></a>
                 </section>
-                {/* Section: Social media */}
+            
             </div>
-            {/* Grid container */}
-
-            {/* Copyright */}
-            <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
+            
+            
+            <div class="text-center p-3 bg-dark">
                 © 2020 Copyright:
-                <a className="text-white" href="https://mdbootstrap.com/"> Elijah Monjardin</a>
+                <a class="text-white" href="https://mdbootstrap.com/"> Elijah Monjardin</a>
             </div>
-            {/* Copyright */}
-          
-        </footer>
+            
+            </footer>
     )
 
 }

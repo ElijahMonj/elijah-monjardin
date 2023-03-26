@@ -29,7 +29,7 @@ const Home = () => {
     return(
         <div className="container p-0">
         {AutoShow()}
-            <section className="container-fluid row justify-content-center py-5 mx-0 my-5 ">
+            <section className="container-fluid row justify-content-center py-5 mx-0 " style={{margin:90}}>
             <div className="col-md-6 auto-hidden-left py-5">
                 <h1 className="display-1">
                     Hi, I'm Elijah Monjardin.
@@ -46,7 +46,7 @@ const Home = () => {
             </div>
 
             </section>
-            <section className="auto-reveal">
+            <section className="auto-reveal" style={{display:"none"}}>
             {showProjects()}
                 <div>
                     <h3 className="display-5">Featured Projects</h3>

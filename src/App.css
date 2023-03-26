@@ -67,7 +67,7 @@
 }
 
 #homeProfilePic:hover{
-  border-radius: 69% 30% 39% 55% / 52% 35% 27% 43% ;
+  border-radius: 50% ;
   
 }
 
@@ -94,4 +94,6 @@ textarea {
   background-color: #3b3c36;
 }
 
-
+.frameworkImg{
+  width: 60px;
+}

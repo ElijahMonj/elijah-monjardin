@@ -68,7 +68,7 @@ const Contact = () => {
   </div>
 </div>
             </div>
-            <div className="col-12">Connect with me with my socials.</div>
+            
             </section>
         </div>
     )
