@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link, NavLink} from 'react-router-dom'
 
 const Home = () => {
     function AutoShow(){
@@ -30,13 +30,21 @@ const Home = () => {
         <div className="container p-0">
         {AutoShow()}
             <section className="container-fluid row justify-content-center py-5 mx-0 " style={{margin:90}}>
-            <div className="col-md-6 auto-hidden-left py-5">
-                <h1 className="display-1">
-                    Hi, I'm Elijah Monjardin.
-                </h1>
-                <h4 className="display-4">
-                    I create modern responsive websites.
+            <div className="col-md-6 auto-hidden-left py-5 d-flex flex-column justify-content-center my-5">
+                <h4 className="display-5">
+                    Welcome!
                 </h4>
+                <h1 className="display-4">
+                   <strong>I'm Elijah Monjardin.</strong> 
+                </h1>
+                <h4 className="display-6">
+                    I create modern responsive websites.
+                    
+                </h4>
+                <div> <Link to="/contact" type="button"  class="btn btn-dark btn-rounded">Hire me</Link>
+                </div>
+               
+            
             </div>
             <div className="col-md-6 d-flex justify-content-center auto-hidden-right py-5">
                

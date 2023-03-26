@@ -6,10 +6,10 @@ const Footer = () => {
     
 
     return(
-        <footer class="bg-light text-center text-white">
+        <footer class=" text-center text-white mt-5">
  
             <div class="container p-4 pb-0">
-                <p className='text-dark'>Connect with me</p>
+                <p className='text-dark lead'>Connect with me</p>
                 <section class="mb-4">
                 
                 <a

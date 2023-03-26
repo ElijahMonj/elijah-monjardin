@@ -22,12 +22,12 @@ const Contact = () => {
         {AutoShow()}
            <section className="container-fluid row justify-content-center pt-5 mx-0 mt-5  ">
             
-            <div className="col-lg-6 d-flex flex-column justify-content-center auto-hidden-right py-5">
+            <div className="col-lg-6 d-flex flex-column justify-content-center auto-hidden-right py-5 ">
                 <div>
                   <h1>Contact Me</h1>
                 </div>
                 <div className="">
-                  <h5>Connect. Ask questions. Message me. </h5>
+                  <h5 className="lead">Connect. Ask questions. Message me. </h5>
                 </div>
                 <div>
                 <img className="img-fluid my-auto" id="" 
@@ -62,7 +62,7 @@ const Contact = () => {
           <label for="message" className="d-flex justify-content-start ">Message</label>
           <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" maxLength={200} name="message"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-dark">Submit</button>
       </form>
     </div>
   </div>

@@ -65,7 +65,7 @@ const Portfolio = () => {
             {AutoShow()}
             {showProjects()}
             <section className="container-fluid row justify-content-center py-5 mx-0 my-5 ">
-            <div className="col-md-6 auto-hidden-left py-5">
+            <div className="col-12 auto-hidden-left py-5">
                 <h5 className="display-6">Hi, I'm</h5>
                 <h1 className="display-1">
                     <strong>Elijah Monjardin</strong>
@@ -73,19 +73,49 @@ const Portfolio = () => {
                 <h4 className="display-5">
                     I'm a web developer.
                 </h4>
-                <p>Lorem ipsum longer</p>
+                <p className="lead">And these are my projects</p>
             </div>
-            <div className="col-md-6 d-flex justify-content-center auto-hidden-right py-5">
-               
-                <img className="img-fluid my-auto" id="homeProfilePic" src="https://i.ibb.co/S7yPgkC/DALL-E-2023-03-19-17-40-11-husky-with-necktie-digital-art.png" 
-                style={{height:"auto",width:"20em"}} alt="me"/>
 
+
+            <div className="col-12 d-flex justify-content-center auto-hidden-right py-5">
+               
+            <div id="carouselExampleControls" class="carousel slide carousel-fade carousel-dark" data-mdb-ride="carousel">
+                <div class="carousel-inner rounded-5 shadow-4-strong">
+                    <div class="carousel-item active">
+                    <img src={ThinkAndShare} class="d-block w-100" alt="Think and Share"/>
+                    </div>
+                    <div class="carousel-item ative">
+                    <img src={blogSite} class="d-block w-100" alt="GizmoThoughts"/>
+                    </div>
+                    <div class="carousel-item ">
+                    <img src={tictac} class="d-block w-100" alt="GizmoThoughts"/>
+                    </div>
+                    <div class="carousel-item ">
+                    <img src={weather} class="d-block w-100" alt="GizmoThoughts"/>
+                    </div>
+                    <div class="carousel-item ">
+                    <img src={memoryCard} class="d-block w-100" alt="GizmoThoughts"/>
+                    </div>
+                    <div class="carousel-item ">
+                    <img src={Etch} class="d-block w-100" alt="GizmoThoughts"/>
+                    </div>
+                   
+                </div>
+                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
             </div>
             
             </section>
             <section className="row auto-reveal">
             <div className="col-md-12">
-                <h5>A MERN stack developer.</h5>
+                <h5 className="lead">A MERN stack web developer.</h5>
                 
                 <div class="d-flex justify-content-center gap-3">
                     <div class="col-1 showLogoTitle" >
@@ -113,62 +143,7 @@ const Portfolio = () => {
             </div>
             </section>
             </section>
-            <section className="reveal">
-            <div>
-                <h6 className="display-6 my-5">Featured Projects</h6>
-            </div>
-            <div id="carouselMaterialStyle" className="carousel carousel-fade " data-mdb-ride="carousel">
-                
-                <div className="carousel-indicators " >
-                    <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="0" className="active" aria-current="true"
-                    aria-label="Slide 1"></button>
-                    <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-
-               
-                <div className="carousel-inner rounded-5 shadow-4-strong">
-                   
-                    <div className="carousel-item active" data-mdb-interval="10000">
-                    <img src={ThinkAndShare} className="d-block w-100"  style={{filter:"brightness(70%)"}}
-                        alt="Think & Share" />
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>Think & Share</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </div>
-                    </div>
-
-                    
-                    <div className="carousel-item" data-mdb-interval="10000">
-                    <img src={blogSite} className="d-block w-100" style={{filter:"brightness(70%)"}}
-                        alt="Canyon at Nigh" />
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>GizmoThoughts</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    </div>
-
-                   
-                    <div className="carousel-item" data-mdb-interval="10000">
-                    <img src={tictac} className="d-block w-100" style={{filter:"brightness(70%)"}}
-                        alt="Cliff Above a Stormy Sea" />
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>Love is...Tic-Tac-Toe!?</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </div>
-                    </div>
-                </div>
-              
-                <button className="carousel-control-prev" type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
-                </div>
-            </section>
+           
             <section className="">
                 <div className="reveal">
                     <h6 className="display-6 mt-5">All Projects</h6>
@@ -277,30 +252,7 @@ const Portfolio = () => {
                         </div>
                         </div>
                     </div>
-                    <div class="col pt-5 reveal">
-                        <div class="card h-100">
-                            
-                        <img src={library} class="card-img-top"
-                            alt="Skyscrapers" />
-                        <div class="card-body">
-                            <h5 class="card-title">My Library</h5>
-                            <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                        <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-primary m-1" type="button" href="https://elijahmonj.github.io/Library/">
-                            <i class="fas fa-globe me-1"></i>
-                            Live Preview</a>
-                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/Library">
-                            <i class="fas fa-code me-1"></i>
-                            Source Code</a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+                   
                     <div class="col pt-5 reveal">
                         <div class="card h-100">
                             
@@ -350,6 +302,46 @@ const Portfolio = () => {
                         </div>
                         </div>
                     </div>
+                    
+                   
+
+  
+  
+                </div>
+            </section>
+            <section className="">
+                <div className="reveal">
+                    <h6 className="mt-5 lead">Older Projects</h6>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    
+                    <div class="col pt-5 reveal">
+                        <div class="card h-100">
+                            
+                        <img src={library} class="card-img-top"
+                            alt="Skyscrapers" />
+                        <div class="card-body">
+                            <h5 class="card-title">My Library</h5>
+                            <p class="card-text">
+                            This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                        <div class="d-grid gap-2 d-md-block">
+                            <a class="btn btn-primary m-1" type="button" href="https://elijahmonj.github.io/Library/">
+                            <i class="fas fa-globe me-1"></i>
+                            Live Preview</a>
+                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/Library">
+                            <i class="fas fa-code me-1"></i>
+                            Source Code</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    
+
+                    
                     <div class="col pt-5 reveal">
                         <div class="card h-100">
                             
