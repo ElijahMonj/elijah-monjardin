@@ -1,5 +1,6 @@
 import React from "react";
 import {Link, NavLink} from 'react-router-dom'
+import MyPicture from './images/mypic.jpeg'
 
 const Home = () => {
     function AutoShow(){
@@ -29,7 +30,7 @@ const Home = () => {
     return(
         <div className="container p-0">
         {AutoShow()}
-            <section className="container-fluid row justify-content-center py-5 mx-0 " style={{margin:90}}>
+            <section className="container-fluid row justify-content-center py-5 mx-0 ">
             <div className="col-md-6 auto-hidden-left py-5 d-flex flex-column justify-content-center my-5">
                 <h4 className="display-5">
                     Welcome!
@@ -48,7 +49,7 @@ const Home = () => {
             </div>
             <div className="col-md-6 d-flex justify-content-center auto-hidden-right py-5">
                
-                <img className="img-fluid my-auto" id="homeProfilePic" src="https://i.ibb.co/S7yPgkC/DALL-E-2023-03-19-17-40-11-husky-with-necktie-digital-art.png" 
+                <img className="img-fluid my-auto" id="homeProfilePic" src={MyPicture} 
                 style={{height:"auto",width:"20em"}} alt="me"/>
 
             </div>

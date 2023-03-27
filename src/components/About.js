@@ -2,7 +2,7 @@ import React from "react";
 import Mail from './images/mail.svg'
 import Learn from './images/1.svg'
 import Responsive from './images/2.svg'
-
+import MyPicture from './images/mypic.jpeg'
 import HTMLLogo from './icons/frameworks/1.svg'
 import CSSLogo from './icons/frameworks/2.svg'
 import JSLogo from './icons/frameworks/3.svg'
@@ -53,7 +53,7 @@ const About = () => {
             </div>
             <div className="col-md-6 d-flex justify-content-center auto-hidden-right py-5">
                
-                <img className="img-fluid my-auto" id="homeProfilePic" src="https://i.ibb.co/S7yPgkC/DALL-E-2023-03-19-17-40-11-husky-with-necktie-digital-art.png" 
+                <img className="img-fluid my-auto" id="homeProfilePic" src={MyPicture}
                 style={{height:"auto",width:"20em"}} alt="me"/>
 
             </div>
