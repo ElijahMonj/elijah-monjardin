@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/elijah-monjardin/static/css/main.f6c9f555.css",
-    "main.js": "/elijah-monjardin/static/js/main.63dbef24.js",
+    "main.css": "/elijah-monjardin/static/css/main.b4e925f5.css",
+    "main.js": "/elijah-monjardin/static/js/main.30cb4531.js",
     "static/media/weather.png": "/elijah-monjardin/static/media/weather.11d2b7d88ba995091d03.png",
     "static/media/blog-site.png": "/elijah-monjardin/static/media/blog-site.d1327eaf198a271f1a88.png",
     "static/media/shopping-cart.png": "/elijah-monjardin/static/media/shopping-cart.ece9ac6107c330bcc8e4.png",
@@ -25,11 +25,11 @@
     "static/media/9.svg": "/elijah-monjardin/static/media/9.89a859314e8993e4fb7ad9bb32692db4.svg",
     "static/media/10.svg": "/elijah-monjardin/static/media/10.fc8508c569d9aad222ae52b8a5377e3a.svg",
     "index.html": "/elijah-monjardin/index.html",
-    "main.f6c9f555.css.map": "/elijah-monjardin/static/css/main.f6c9f555.css.map",
-    "main.63dbef24.js.map": "/elijah-monjardin/static/js/main.63dbef24.js.map"
+    "main.b4e925f5.css.map": "/elijah-monjardin/static/css/main.b4e925f5.css.map",
+    "main.30cb4531.js.map": "/elijah-monjardin/static/js/main.30cb4531.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6c9f555.css",
-    "static/js/main.63dbef24.js"
+    "static/css/main.b4e925f5.css",
+    "static/js/main.30cb4531.js"
   ]
 }
