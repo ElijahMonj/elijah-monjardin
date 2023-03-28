@@ -11,12 +11,12 @@ import Resume from './components/Resume'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-
+import { HashRouter } from "react-router-dom";
 function App() {
  
   
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <NavigationBar/>
         <Routes>
@@ -29,7 +29,7 @@ function App() {
         <Footer/>
       </div>
       
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
