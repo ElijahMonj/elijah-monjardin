@@ -21,10 +21,10 @@ function App() {
         <NavigationBar/>
         <Routes>
           <Route exact path='/elijah-monjardin' element={<Home/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/contact' element={<Contact/>}/>
-          <Route path='/portfolio' element={<Portfolio/>}/>
-          <Route path='/resume' element={<Resume/>}/>
+          <Route path='/elijah-monjardin/about' element={<About/>}/>
+          <Route path='/elijah-monjardin/contact' element={<Contact/>}/>
+          <Route path='/elijah-monjardin/portfolio' element={<Portfolio/>}/>
+          <Route path='/elijah-monjardin/resume' element={<Resume/>}/>
         </Routes>
         <Footer/>
       </div>

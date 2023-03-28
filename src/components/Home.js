@@ -42,7 +42,7 @@ const Home = () => {
                     I create modern responsive websites.
                     
                 </h4>
-                <div> <Link to="/contact" type="button"  class="btn btn-dark btn-rounded">Hire me</Link>
+                <div> <Link to="/elijah-monjardin/contact" type="button"  class="btn btn-dark btn-rounded">Hire me</Link>
                 </div>
                
             
