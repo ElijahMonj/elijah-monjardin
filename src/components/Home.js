@@ -30,7 +30,7 @@ const Home = () => {
     return(
         <div className="container p-0">
         {AutoShow()}
-            <section className="container-fluid row justify-content-center py-5 mx-0 ">
+            <section className="container-fluid row justify-content-center py-5 mx-0" style={{marginTop:"3%"}}>
             <div className="col-md-6 auto-hidden-left py-5 d-flex flex-column justify-content-center my-5">
                 <h4 className="display-5">
                     Welcome!
