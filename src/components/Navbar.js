@@ -8,14 +8,23 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import {Link, NavLink} from 'react-router-dom'
+import NavLogo from './icons/elijahLogoDark.svg'
 
 
 function NavigationBar() {
   
     return(
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-1">
   <div className="container ">
-    <Link className="navbar-brand lead" to="/"><strong>ELIJAH MONJARDIN</strong></Link>
+    <Link className="navbar-brand" to="/">
+    <img
+        src={NavLogo}
+        class="me-2"
+        height="40"
+        alt="MDB Logo"
+        loading="lazy"
+      />
+    <strong className="lead">ELIJAH MONJARDIN</strong></Link>
     <button
       className="navbar-toggler"
       type="button"
@@ -31,7 +40,10 @@ function NavigationBar() {
       <div className="navbar-nav">
         <Link to={'/about'} className="nav-link">About me</Link>
         <Link to={'/portfolio'} className="nav-link">Portfolio</Link>
+        {/* 
         <Link to={'/resume'} className="nav-link">Resume</Link>
+        */}
+        
         <Link to={'/contact'} className="nav-link">Contact</Link>
         
       </div>

@@ -66,7 +66,7 @@ const Portfolio = () => {
             <section>
             {AutoShow()}
             {showProjects()}
-            <section className="container-fluid row justify-content-center py-5 mx-0 my-5 ">
+            <section className="container-fluid row justify-content-center py-5 mx-0 ">
             <div className="col-12 auto-hidden-left py-5">
                 <h5 className="display-6">Hi, I'm</h5>
                 <h1 className="display-1">
@@ -90,16 +90,16 @@ const Portfolio = () => {
                     <img src={blogSite} class="d-block w-100" alt="GizmoThoughts"/>
                     </div>
                     <div class="carousel-item ">
-                    <img src={tictac} class="d-block w-100" alt="GizmoThoughts"/>
+                    <img src={tictac} class="d-block w-100" alt="Love is...Tic-Tac-Toe!?"/>
                     </div>
                     <div class="carousel-item ">
-                    <img src={weather} class="d-block w-100" alt="GizmoThoughts"/>
+                    <img src={weather} class="d-block w-100" alt="Weather Today"/>
                     </div>
                     <div class="carousel-item ">
-                    <img src={memoryCard} class="d-block w-100" alt="GizmoThoughts"/>
+                    <img src={memoryCard} class="d-block w-100" alt="Memory Game"/>
                     </div>
                     <div class="carousel-item ">
-                    <img src={Etch} class="d-block w-100" alt="GizmoThoughts"/>
+                    <img src={Etch} class="d-block w-100" alt="Etch-A-Sketch"/>
                     </div>
                    
                 </div>
@@ -151,9 +151,7 @@ const Portfolio = () => {
             </section>
             </section>
 
-            <section className="reveal">
-            
-            </section>
+           
            
             <section className="">
                 <div className="reveal">
@@ -170,10 +168,10 @@ const Portfolio = () => {
                 </p>
                 <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-primary m-1" type="button" href="https://think-and-share-production.up.railway.app/">
+                            <a class="btn btn-dark m-1" type="button" href="https://think-and-share-production.up.railway.app/">
                             <i class="fas fa-globe me-1"></i>
                             Live Preview</a>
-                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/think-and-share">
+                            <a class="btn btn-dark m-1" type="button" href="https://github.com/ElijahMonj/think-and-share">
                             <i class="fas fa-code me-1"></i>
                             Source Code</a>
                             </div>
@@ -190,16 +188,15 @@ const Portfolio = () => {
                         <div class="card-body">
                             <h5 class="card-title">GizmoThoughts</h5>
                             <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            A simple blog website project. Build with NodeJS, Express, EJS, and MongoDB.
                             </p>
                         </div>
                         <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-primary m-1" type="button" href="https://blog-api-production-a5c0.up.railway.app/">
+                            <a class="btn btn-dark m-1" type="button" href="https://blog-api-production-a5c0.up.railway.app/">
                             <i class="fas fa-globe me-1"></i>
                             Live Preview</a>
-                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/Blog-Site">
+                            <a class="btn btn-dark m-1" type="button" href="https://github.com/ElijahMonj/Blog-Site">
                             <i class="fas fa-code me-1"></i>
                             Source Code</a>
                             </div>
@@ -214,16 +211,15 @@ const Portfolio = () => {
                         <div class="card-body">
                             <h5 class="card-title">Love is...Tic-Tac-Toe!?</h5>
                             <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            A Tic-Tac-Toe web game with a theme of Kaguya-sama: Love Is War!
                             </p>
                         </div>
                         <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-primary m-1" type="button" href="https://elijahmonj.github.io/Tic-Tac-Toe/">
+                            <a class="btn btn-dark m-1" type="button" href="https://elijahmonj.github.io/Tic-Tac-Toe/">
                             <i class="fas fa-globe me-1"></i>
                             Live Preview</a>
-                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/Tic-Tac-Toe">
+                            <a class="btn btn-dark m-1" type="button" href="https://github.com/ElijahMonj/Tic-Tac-Toe">
                             <i class="fas fa-code me-1"></i>
                             Source Code</a>
                             </div>
@@ -239,16 +235,15 @@ const Portfolio = () => {
                         <div class="card-body">
                             <h5 class="card-title">Weather Today</h5>
                             <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            A weather webapp powered by <a href="https://openweathermap.org/">openweathermap.org</a>'s API.
                             </p>
                         </div>
                         <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-primary m-1" type="button" href="https://elijahmonj.github.io/Weather-App/">
+                            <a class="btn btn-dark m-1" type="button" href="https://elijahmonj.github.io/Weather-App/">
                             <i class="fas fa-globe me-1"></i>
                             Live Preview</a>
-                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/Weather-App">
+                            <a class="btn btn-dark m-1" type="button" href="https://github.com/ElijahMonj/Weather-App">
                             <i class="fas fa-code me-1"></i>
                             Source Code</a>
                             </div>
@@ -264,17 +259,15 @@ const Portfolio = () => {
                         <div class="card-body">
                             <h5 class="card-title">Memory Game</h5>
                             <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                            
+                            A memory game where you should not click a country's flag twice. Be careful, some countries has almost identical flags! Made with ReactJS.               
                             </p>
                         </div>
                         <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-primary m-1" type="button" href="https://elijahmonj.github.io/memory-card/">
+                            <a class="btn btn-dark m-1" type="button" href="https://elijahmonj.github.io/memory-card/">
                             <i class="fas fa-globe me-1"></i>
                             Live Preview</a>
-                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/memory-card">
+                            <a class="btn btn-dark m-1" type="button" href="https://github.com/ElijahMonj/memory-card">
                             <i class="fas fa-code me-1"></i>
                             Source Code</a>
                             </div>
@@ -290,16 +283,15 @@ const Portfolio = () => {
                         <div class="card-body">
                             <h5 class="card-title">Etch-A-Sketch</h5>
                             <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            A webapp where you could do some silly simple pixel arts.
                             </p>
                         </div>
                         <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-primary m-1" type="button" href="https://elijahmonj.github.io/ETCH-A-SKETCH/">
+                            <a class="btn btn-dark m-1" type="button" href="https://elijahmonj.github.io/ETCH-A-SKETCH/">
                             <i class="fas fa-globe me-1"></i>
                             Live Preview</a>
-                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/ETCH-A-SKETCH">
+                            <a class="btn btn-dark m-1" type="button" href="https://github.com/ElijahMonj/ETCH-A-SKETCH">
                             <i class="fas fa-code me-1"></i>
                             Source Code</a>
                             </div>
@@ -327,16 +319,15 @@ const Portfolio = () => {
                         <div class="card-body">
                             <h5 class="card-title">My Library</h5>
                             <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            A simple personal library webapp project.
                             </p>
                         </div>
                         <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-primary m-1" type="button" href="https://elijahmonj.github.io/Library/">
+                            <a class="btn btn-dark m-1" type="button" href="https://elijahmonj.github.io/Library/">
                             <i class="fas fa-globe me-1"></i>
                             Live Preview</a>
-                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/Library">
+                            <a class="btn btn-dark m-1" type="button" href="https://github.com/ElijahMonj/Library">
                             <i class="fas fa-code me-1"></i>
                             Source Code</a>
                             </div>
@@ -354,16 +345,15 @@ const Portfolio = () => {
                         <div class="card-body">
                             <h5 class="card-title">TODOtodo</h5>
                             <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            A personal to-do list webapp.
                             </p>
                         </div>
                         <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-primary m-1" type="button" href="https://elijahmonj.github.io/Todo-List/">
+                            <a class="btn btn-dark m-1" type="button" href="https://elijahmonj.github.io/Todo-List/">
                             <i class="fas fa-globe me-1"></i>
                             Live Preview</a>
-                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/Todo-List">
+                            <a class="btn btn-dark m-1" type="button" href="https://github.com/ElijahMonj/Todo-List">
                             <i class="fas fa-code me-1"></i>
                             Source Code</a>
                             </div>
@@ -378,16 +368,15 @@ const Portfolio = () => {
                         <div class="card-body">
                             <h5 class="card-title">Vestir</h5>
                             <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            A simple shopping website. Made with ReactJS.
                             </p>
                         </div>
                         <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-primary m-1" type="button" href="https://elijahmonj.github.io/shopping-cart/">
+                            <a class="btn btn-dark m-1" type="button" href="https://elijahmonj.github.io/shopping-cart/">
                             <i class="fas fa-globe me-1"></i>
                             Live Preview</a>
-                            <a class="btn btn-primary m-1" type="button" href="https://github.com/ElijahMonj/shopping-cart">
+                            <a class="btn btn-dark m-1" type="button" href="https://github.com/ElijahMonj/shopping-cart">
                             <i class="fas fa-code me-1"></i>
                             Source Code</a>
                             </div>
