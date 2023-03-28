@@ -15,7 +15,7 @@ function NavigationBar() {
     return(
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container ">
-    <Link className="navbar-brand lead" to="/elijah-monjardin"><strong>ELIJAH MONJARDIN</strong></Link>
+    <Link className="navbar-brand lead" to="/"><strong>ELIJAH MONJARDIN</strong></Link>
     <button
       className="navbar-toggler"
       type="button"
@@ -29,10 +29,10 @@ function NavigationBar() {
     </button>
     <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <Link to={'/elijah-monjardin/about'} className="nav-link">About me</Link>
-        <Link to={'/elijah-monjardin/portfolio'} className="nav-link">Portfolio</Link>
-        <Link to={'/elijah-monjardin/resume'} className="nav-link">Resume</Link>
-        <Link to={'/elijah-monjardin/contact'} className="nav-link">Contact</Link>
+        <Link to={'/about'} className="nav-link">About me</Link>
+        <Link to={'/portfolio'} className="nav-link">Portfolio</Link>
+        <Link to={'/resume'} className="nav-link">Resume</Link>
+        <Link to={'/contact'} className="nav-link">Contact</Link>
         
       </div>
     </div>

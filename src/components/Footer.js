@@ -64,7 +64,7 @@ const Footer = () => {
             
             <div class="text-center p-3 bg-dark">
                 © 2020 Copyright:
-                <a class="text-white" href="https://elijahmonjardin.me/"> Elijah Monjardin</a>
+                <a class="text-white" href="https://mdbootstrap.com/"> Elijah Monjardin</a>
             </div>
             
             </footer>
