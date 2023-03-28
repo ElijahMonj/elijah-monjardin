@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elijah-monjardin/static/css/main.f6c9f555.css",
-    "main.js": "/elijah-monjardin/static/js/main.0b2d39a6.js",
+    "main.js": "/elijah-monjardin/static/js/main.4242dc5e.js",
     "static/media/weather.png": "/elijah-monjardin/static/media/weather.11d2b7d88ba995091d03.png",
     "static/media/blog-site.png": "/elijah-monjardin/static/media/blog-site.d1327eaf198a271f1a88.png",
     "static/media/shopping-cart.png": "/elijah-monjardin/static/media/shopping-cart.ece9ac6107c330bcc8e4.png",
@@ -26,10 +26,10 @@
     "static/media/10.svg": "/elijah-monjardin/static/media/10.fc8508c569d9aad222ae52b8a5377e3a.svg",
     "index.html": "/elijah-monjardin/index.html",
     "main.f6c9f555.css.map": "/elijah-monjardin/static/css/main.f6c9f555.css.map",
-    "main.0b2d39a6.js.map": "/elijah-monjardin/static/js/main.0b2d39a6.js.map"
+    "main.4242dc5e.js.map": "/elijah-monjardin/static/js/main.4242dc5e.js.map"
   },
   "entrypoints": [
     "static/css/main.f6c9f555.css",
-    "static/js/main.0b2d39a6.js"
+    "static/js/main.4242dc5e.js"
   ]
 }
