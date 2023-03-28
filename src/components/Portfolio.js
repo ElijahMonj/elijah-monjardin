@@ -164,7 +164,7 @@ const Portfolio = () => {
             <div class="card-body ">
                 <h5 class="card-title ">Think & Share</h5>
                 <p class="card-text">
-                A fully functional social media website. Features a responsive user interface that fits different devices. Developed using MERN stack.
+                A fully functional social media website. Features a responsive user interface that fits different devices. Developed using MERN stack and <a href="https://getbootstrap.com/" className="">Bootstrap</a>.
                 </p>
                 <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
