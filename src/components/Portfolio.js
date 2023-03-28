@@ -14,6 +14,8 @@ import mongoLogo from './icons/1.svg';
 import nodeLogo from './icons/2.svg';
 import reactLogo from './icons/3.svg';
 import expressLogo from './icons/4.svg';
+import TSResponsive from './images/responsive.png'
+
 const Portfolio = () => {
     function AutoShow(){
         setTimeout(function() {
@@ -119,22 +121,27 @@ const Portfolio = () => {
                 
                 <div class="d-flex justify-content-center gap-3">
                     <div class="col-1 showLogoTitle" >
+                        <a href="https://www.mongodb.com/">
                         <img src={mongoLogo} alt="html" onMouseEnter={showTitleMongo} 
-                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img>
-                    </div>
-                    <div class="col-1 showLogoTitle">
-                        <img src={expressLogo} alt="html" onMouseEnter={showTitleExpress} 
-                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img>
+                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img></a>
                         
                     </div>
                     <div class="col-1 showLogoTitle">
+                    <a href="https://expressjs.com/">
+                        <img src={expressLogo} alt="html" onMouseEnter={showTitleExpress} 
+                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img></a>
+                        
+                    </div>
+                    <div class="col-1 showLogoTitle">
+                    <a href="https://react.dev/">
                         <img src={reactLogo} alt="html" onMouseEnter={showTitleReact} 
-                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img>
+                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img></a>
                          
                     </div>
                     <div class="col-1 showLogoTitle">
+                    <a href="https://nodejs.org/en">
                         <img src={nodeLogo} alt="html" onMouseEnter={showTitleNode} 
-                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img>
+                        onMouseLeave={showTitleRemove} className="img-fluid h-75"></img></a>
                         
                     </div>
                     
@@ -143,27 +150,25 @@ const Portfolio = () => {
             </div>
             </section>
             </section>
+
+            <section className="reveal">
+            
+            </section>
            
             <section className="">
                 <div className="reveal">
                     <h6 className="display-6 mt-5">All Projects</h6>
+                    
                 </div>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col pt-5 reveal">
-                        <div class="card h-100">
-                            <div class="card-header">
-                            <h5 class="m-0">Featured</h5>
-                            </div>
-                        <img src={ThinkAndShare} class="card-img-top"
-                            alt="Skyscrapers" />
-                        <div class="card-body">
-                            <h5 class="card-title">Think & Share</h5>
-                            <p class="card-text">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                            </p>
-                        </div>
-                        <div class="card-footer">
+                <div class="card bg-light my-5 reveal">
+            <div class="card-header lead">Featured</div>
+            <img src={TSResponsive} class="card-img-top p-3" alt="think and share" />
+            <div class="card-body ">
+                <h5 class="card-title ">Think & Share</h5>
+                <p class="card-text">
+                A fully functional social media website. Features a responsive user interface that fits different devices. Developed using MERN stack.
+                </p>
+                <div class="card-footer">
                         <div class="d-grid gap-2 d-md-block">
                             <a class="btn btn-primary m-1" type="button" href="https://think-and-share-production.up.railway.app/">
                             <i class="fas fa-globe me-1"></i>
@@ -173,13 +178,13 @@ const Portfolio = () => {
                             Source Code</a>
                             </div>
                         </div>
-                        </div>
-                    </div>
+            </div>
+            </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                    
                     <div class="col pt-5 reveal">
                         <div class="card h-100">
-                            <div class="card-header">
-                            <h5 class="m-0">Featured</h5>
-                            </div>
+                            
                         <img src={blogSite} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
@@ -203,9 +208,7 @@ const Portfolio = () => {
                     </div>
                     <div class="col pt-5 reveal">
                         <div class="card h-100">
-                            <div class="card-header">
-                            <h5 class="m-0">Featured</h5>
-                            </div>
+                           
                         <img src={tictac} class="card-img-top"
                             alt="Skyscrapers" />
                         <div class="card-body">
@@ -263,6 +266,7 @@ const Portfolio = () => {
                             <p class="card-text">
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.
+                            
                             </p>
                         </div>
                         <div class="card-footer">
