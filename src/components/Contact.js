@@ -38,31 +38,31 @@ const Contact = () => {
 
             </div>
             <div className="col-lg-6 auto-hidden-left py-5 d-flex flex-column justify-content-center">
-            <div class="container">
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
+            <div className="container">
+  <div className="row">
+    <div className="col-md-8 offset-md-2">
       <form className="" action="https://formsubmit.co/monjardinelijah120@gmail.com" method="POST">
-        <div class="form-group d-flex flex-column justify-content-start mb-3">
+        <div className="form-group d-flex flex-column justify-content-start mb-3">
           <label for="firstName" className="d-flex justify-content-start">First Name</label>
-          <input maxLength={50} type="text" class="form-control" id="firstName" placeholder="Enter your first name" name="firstName"/>
+          <input maxLength={50} type="text" className="form-control" id="firstName" placeholder="Enter your first name" name="firstName"/>
         </div>
-        <div class="form-group d-flex flex-column justify-content-start mb-3">
+        <div className="form-group d-flex flex-column justify-content-start mb-3">
           <label for="lastName" className="d-flex justify-content-start ">Last Name</label>
-          <input maxLength={50} type="text" class="form-control" id="lastName" placeholder="Enter your last name" name="lastName"/>
+          <input maxLength={50} type="text" className="form-control" id="lastName" placeholder="Enter your last name" name="lastName"/>
         </div>
-        <div class="form-group d-flex flex-column justify-content-start mb-3">
+        <div className="form-group d-flex flex-column justify-content-start mb-3">
           <label for="subject" className="d-flex justify-content-start ">Subject</label>
-          <input maxLength={50} type="text" class="form-control" id="subject" placeholder="Subject of message" name="subject"/>
+          <input maxLength={50} type="text" className="form-control" id="subject" placeholder="Subject of message" name="subject"/>
         </div>
-        <div class="form-group d-flex flex-column justify-content-start mb-3">
+        <div className="form-group d-flex flex-column justify-content-start mb-3">
           <label for="email" className="d-flex justify-content-start">Email</label>
-          <input maxLength={50} type="email" class="form-control" id="email" placeholder="Enter your email address" name="email"/>
+          <input maxLength={50} type="email" className="form-control" id="email" placeholder="Enter your email address" name="email"/>
         </div>
-        <div class="form-group d-flex flex-column justify-content-start mb-3">
+        <div className="form-group d-flex flex-column justify-content-start mb-3">
           <label for="message" className="d-flex justify-content-start ">Message</label>
-          <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" maxLength={200} name="message"></textarea>
+          <textarea className="form-control" id="message" rows="5" placeholder="Enter your message" maxLength={200} name="message"></textarea>
         </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
+        <button type="submit" className="btn btn-dark">Submit</button>
       </form>
     </div>
   </div>

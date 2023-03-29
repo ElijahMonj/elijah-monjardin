@@ -136,53 +136,53 @@ const About = () => {
                   <h6 className="lead mb-3">My languages and frameworks</h6>
                 </div>
              </div>
-             <div class="row row-cols-* justify-content-center">
-                <div class="col justify-content-center madeWithLinks">
+             <div className="row row-cols-* justify-content-center">
+                <div className="col justify-content-center madeWithLinks">
                     <img src={HTMLLogo} className="frameworkImg"></img>
                     <br></br>
                     <small>HTML</small>
                 </div>
-                <div class="col justify-content-center madeWithLinks">
+                <div className="col justify-content-center madeWithLinks">
                     <img src={CSSLogo} className="frameworkImg"></img>
                     <br></br>
                     <small>CSS</small>
                 </div>
-                <div class="col justify-content-center madeWithLinks">
+                <div className="col justify-content-center madeWithLinks">
                     <img src={JSLogo} className="frameworkImg"></img>
                     <br></br>
                     <small>Javascript</small>
                 </div>
-                <div class="col justify-content-center madeWithLinks">
+                <div className="col justify-content-center madeWithLinks">
                     <img src={ReactLogo} className="frameworkImg"></img>
                     <br></br>
                     <small>ReactJS</small>
                 </div>
-                <div class="col justify-content-center madeWithLinks">
+                <div className="col justify-content-center madeWithLinks">
                     <img src={MongoLogo} className="frameworkImg"></img>
                     <br></br>
                     <small>MongoDB</small>
                 </div>
-                <div class="col justify-content-center madeWithLinks">
+                <div className="col justify-content-center madeWithLinks">
                     <img src={NodeLogo} className="frameworkImg"></img>
                     <br></br>
                     <small>NodeJS</small>
                 </div>
-                <div class="col justify-content-center madeWithLinks">
+                <div className="col justify-content-center madeWithLinks">
                     <img src={ExLogo} className="frameworkImg"></img>
                     <br></br>
                     <small>ExpressJS</small>
                 </div>
-                <div class="col justify-content-center madeWithLinks">
+                <div className="col justify-content-center madeWithLinks">
                     <img src={BSLogo} className="frameworkImg"></img>
                     <br></br>
                     <small>Bootstrap</small>
                 </div>
-                <div class="col justify-content-center madeWithLinks">
+                <div className="col justify-content-center madeWithLinks">
                     <img src={JavaLogo} className="frameworkImg"></img>
                     <br></br>
                     <small>Java</small>
                 </div>
-                <div class="col justify-content-center madeWithLinks">
+                <div className="col justify-content-center madeWithLinks">
                     <img src={CLogo} className="frameworkImg"></img>
                     <br></br>
                     <small>C#</small>

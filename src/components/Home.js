@@ -42,7 +42,7 @@ const Home = () => {
                     a web developer.
                     
                 </h4>
-                <div> <Link to="/contact" type="button"  class="btn btn-dark btn-rounded">Hire me</Link>
+                <div> <Link to="/contact" type="button"  className="btn btn-dark btn-rounded">Hire me</Link>
                 </div>
                
             
@@ -63,22 +63,22 @@ const Home = () => {
 
                             <div className="col-md-4 m-2">
                                 
-                                <div class="bg-image hover-overlay mx-auto my-5 rounded" style={{maxWidth: "20rem", cursor:'pointer'}}>
+                                <div className="bg-image hover-overlay mx-auto my-5 rounded" style={{maxWidth: "20rem", cursor:'pointer'}}>
                                 <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/053.webp" className="w-100 rounded" />
-                                <div class="mask text-light d-flex justify-content-center flex-column text-center" style={{backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
+                                <div className="mask text-light d-flex justify-content-center flex-column text-center" style={{backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
                                     <h4>Think & Share</h4>
-                                    <p class="m-0">paragraph</p>
+                                    <p className="m-0">paragraph</p>
                                 </div>
                                 </div>
                                 
                             </div>
 
                             <div className="col-md-4 m-2">
-                                <div class="bg-image hover-overlay mx-auto my-5 rounded" style={{maxWidth: "20rem",cursor:'pointer'}}>
+                                <div className="bg-image hover-overlay mx-auto my-5 rounded" style={{maxWidth: "20rem",cursor:'pointer'}}>
                                     <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/053.webp" className="w-100 rounded" />
-                                    <div class="mask text-light d-flex justify-content-center flex-column text-center" style={{backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
+                                    <div className="mask text-light d-flex justify-content-center flex-column text-center" style={{backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
                                         <h4>Think & Share</h4>
-                                        <p class="m-0">paragraph</p>
+                                        <p className="m-0">paragraph</p>
                                     </div>
                                 </div>
                             </div>

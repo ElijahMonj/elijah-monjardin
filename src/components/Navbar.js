@@ -19,7 +19,7 @@ function NavigationBar() {
     <Link className="navbar-brand" to="/">
     <img
         src={NavLogo}
-        class="me-2 bg-light p-1"
+        className="me-2 bg-light p-1"
         height="40"
         alt="MDB Logo"
         loading="lazy"
