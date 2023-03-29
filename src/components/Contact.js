@@ -18,9 +18,9 @@ const Contact = () => {
            
     }
     return(
-        <div className="container">
+        <div className="container" >
         {AutoShow()}
-           <section className="container-fluid row justify-content-center pt-5 mx-0 mt-5  ">
+           <section className="container-fluid row justify-content-center pt-5 mx-0 mt-5  " style={{minHeight:"90vh"}}>
             
             <div className="col-lg-6 d-flex flex-column justify-content-center auto-hidden-right py-5 ">
                 <div>
@@ -37,7 +37,7 @@ const Contact = () => {
                 
 
             </div>
-            <div className="col-lg-6 auto-hidden-left py-5">
+            <div className="col-lg-6 auto-hidden-left py-5 d-flex flex-column justify-content-center">
             <div class="container">
   <div class="row">
     <div class="col-md-8 offset-md-2">
