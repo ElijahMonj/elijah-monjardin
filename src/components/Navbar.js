@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import {Link, NavLink} from 'react-router-dom'
-import NavLogo from './icons/elijahLogoDark.svg'
+import NavLogo from './icons/elijahLogoLight.svg'
 
 
 function NavigationBar() {
@@ -19,10 +19,11 @@ function NavigationBar() {
     <Link className="navbar-brand" to="/">
     <img
         src={NavLogo}
-        class="me-2"
+        class="me-2 bg-light p-1"
         height="40"
         alt="MDB Logo"
         loading="lazy"
+        style={{borderRadius:50}}
       />
     <strong className="lead">ELIJAH MONJARDIN</strong></Link>
     <button
